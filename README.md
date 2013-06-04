@@ -30,3 +30,11 @@ After you have installed for the first time with `vagrant up`, you can:
 1. Shutdown the vm for later using `vagrant halt` (to boot back up simply use `vagrant up` again)
 2. Pause the vm in its current stat using `vagrant suspend` (to resume the vm use `vagrant resume`)
 
+Update
+------
+
+On newer version of vagrant you will need to repackage the box.
+also, when you login the box hasnt set the read/write flag.
+
+1. run: sudo su
+2. run: chmod 775 `find /usr/local/freeswitch -type d`  
