@@ -34,6 +34,20 @@ Update
 ------
 
 On newer version of vagrant you will need to repackage the box.
+
+This is what it may look like... windows 8 different story will get back to you on that..
+
+A Vagrant 1.0.x state file was found for this environment. Vagrant has
+gone ahead and auto-upgraded this to the latest format. Everything
+should continue working as normal. Beware, however, that older versions
+of Vagrant may no longer be used with this environment.
+
+However, in case anything went wrong, the old dotfile was backed up
+to the location below. If everything is okay, it is safe to remove
+this backup.
+
+run: vagrant box repackage base virtualbox
+
 also, when you login the box hasnt set the read/write flag.
 
 1. run: sudo su
